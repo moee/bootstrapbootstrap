@@ -1,0 +1,19 @@
+{
+  "name": "bootstrapbootstrap",
+  "version": "0.0.1",
+  "dependencies": {
+    "bootstrap": null,
+    "angular": null
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moee/bootstrapbootstrap.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

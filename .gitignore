@@ -1,0 +1,7 @@
+.cache
+.config
+bower_components
+node_modules
+public/css
+public/js
+public/fonts
