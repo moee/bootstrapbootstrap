@@ -50,6 +50,8 @@ module.exports = function(grunt) {
             }
         }
     },
+
+    // TODO: Only watch source files (no built files like public/css/min.css). Maybe separate these source files out into their own directory like public/src.
     watch: {
       scripts: {
         files: ['public/**/*.js'],
