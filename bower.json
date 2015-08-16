@@ -2,8 +2,8 @@
   "name": "bootstrapbootstrap",
   "version": "0.0.1",
   "dependencies": {
-    "bootstrap": null,
-    "angular": null
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.4"
   },
   "repository": {
     "type": "git",
