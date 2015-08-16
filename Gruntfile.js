@@ -1,4 +1,6 @@
 module.exports = function(grunt) {
+    require('load-grunt-tasks')(grunt);
+
     grunt.initConfig({
       uglify: {
         build: {
@@ -63,12 +65,6 @@ module.exports = function(grunt) {
       },
     },
     });
-
-    grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-contrib-connect');
-    grunt.loadNpmTasks('grunt-contrib-watch');
 
     grunt.registerTask('build', ["uglify", "cssmin", "copy"]);
     grunt.registerTask('default', ["build", "connect", "watch"]);
