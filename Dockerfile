@@ -1,5 +1,5 @@
 FROM node
-RUN npm install -g bower grunt grunt-cli
+RUN npm install -g bower grunt-cli
 WORKDIR /app
 RUN adduser --home /app app
 USER app
